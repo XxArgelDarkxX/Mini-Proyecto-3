@@ -1,8 +1,8 @@
-import Interfaces.User;
+import View.Inicio;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        User pokemon = new User();
-        pokemon.setVisible(true);
+        Inicio inicio = new Inicio();
+        inicio.setVisible(true);
     }
 }

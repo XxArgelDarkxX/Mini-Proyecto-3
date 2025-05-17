@@ -1,0 +1,232 @@
+
+  {
+    "pokemons": [
+      {"id":"6","name":"Charizard","type":"FUEGO","stats":{"hp":78,"attack":84,"specialAttack":109,"defense":78,"specialDefense":85,"speed":100},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"59","name":"Arcanine","type":"FUEGO","stats":{"hp":90,"attack":110,"specialAttack":100,"defense":80,"specialDefense":80,"speed":95},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"126","name":"Magmar","type":"FUEGO","stats":{"hp":65,"attack":95,"specialAttack":100,"defense":57,"specialDefense":85,"speed":93},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"136","name":"Flareon","type":"FUEGO","stats":{"hp":65,"attack":130,"specialAttack":95,"defense":60,"specialDefense":110,"speed":65},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"146","name":"Moltres","type":"FUEGO","stats":{"hp":90,"attack":100,"specialAttack":125,"defense":90,"specialDefense":85,"speed":90},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"9","name":"Blastoise","type":"AGUA","stats":{"hp":79,"attack":83,"specialAttack":85,"defense":100,"specialDefense":105,"speed":78},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"130","name":"Gyarados","type":"AGUA","stats":{"hp":95,"attack":125,"specialAttack":60,"defense":79,"specialDefense":100,"speed":81},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"134","name":"Vaporeon","type":"AGUA","stats":{"hp":130,"attack":65,"specialAttack":110,"defense":60,"specialDefense":95,"speed":65},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"121","name":"Starmie","type":"AGUA","stats":{"hp":60,"attack":75,"specialAttack":100,"defense":85,"specialDefense":85,"speed":115},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"91","name":"Cloyster","type":"AGUA","stats":{"hp":50,"attack":95,"specialAttack":85,"defense":180,"specialDefense":45,"speed":70},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"3","name":"Venusaur","type":"PLANTA","stats":{"hp":80,"attack":82,"specialAttack":100,"defense":83,"specialDefense":100,"speed":80},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"71","name":"Victreebel","type":"PLANTA","stats":{"hp":80,"attack":105,"specialAttack":100,"defense":65,"specialDefense":70,"speed":70},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"45","name":"Vileplume","type":"PLANTA","stats":{"hp":75,"attack":80,"specialAttack":100,"defense":85,"specialDefense":90,"speed":50},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"103","name":"Exeggutor","type":"PLANTA","stats":{"hp":95,"attack":95,"specialAttack":125,"defense":85,"specialDefense":65,"speed":55},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"114","name":"Tangela","type":"PLANTA","stats":{"hp":65,"attack":55,"specialAttack":100,"defense":115,"specialDefense":40,"speed":60},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"26","name":"Raichu","type":"ELECTRICO","stats":{"hp":60,"attack":90,"specialAttack":90,"defense":55,"specialDefense":80,"speed":110},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"135","name":"Jolteon","type":"ELECTRICO","stats":{"hp":65,"attack":65,"specialAttack":110,"defense":60,"specialDefense":95,"speed":130},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"125","name":"Electabuzz","type":"ELECTRICO","stats":{"hp":65,"attack":83,"specialAttack":95,"defense":57,"specialDefense":85,"speed":105},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"145","name":"Zapdos","type":"ELECTRICO","stats":{"hp":90,"attack":90,"specialAttack":125,"defense":85,"specialDefense":90,"speed":100},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"82","name":"Magneton","type":"ELECTRICO","stats":{"hp":50,"attack":60,"specialAttack":120,"defense":95,"specialDefense":70,"speed":70},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"18","name":"Pidgeot","type":"VOLADOR","stats":{"hp":83,"attack":80,"specialAttack":70,"defense":75,"specialDefense":70,"speed":101},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"22","name":"Fearow","type":"VOLADOR","stats":{"hp":65,"attack":90,"specialAttack":61,"defense":65,"specialDefense":61,"speed":100},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"142","name":"Aerodactyl","type":"VOLADOR","stats":{"hp":80,"attack":105,"specialAttack":60,"defense":65,"specialDefense":75,"speed":130},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"123","name":"Scyther","type":"VOLADOR","stats":{"hp":70,"attack":110,"specialAttack":55,"defense":80,"specialDefense":80,"speed":105},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"85","name":"Dodrio","type":"VOLADOR","stats":{"hp":60,"attack":110,"specialAttack":60,"defense":70,"specialDefense":60,"speed":110},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"65","name":"Alakazam","type":"PSIQUICO","stats":{"hp":55,"attack":50,"specialAttack":135,"defense":45,"specialDefense":95,"speed":120},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"80","name":"Slowbro","type":"PSIQUICO","stats":{"hp":95,"attack":75,"specialAttack":100,"defense":110,"specialDefense":80,"speed":30},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"97","name":"Hypno","type":"PSIQUICO","stats":{"hp":85,"attack":73,"specialAttack":73,"defense":70,"specialDefense":115,"speed":67},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"150","name":"Mewtwo","type":"PSIQUICO","stats":{"hp":106,"attack":110,"specialAttack":154,"defense":90,"specialDefense":90,"speed":130},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"151","name":"Mew","type":"PSIQUICO","stats":{"hp":100,"attack":100,"specialAttack":100,"defense":100,"specialDefense":100,"speed":100},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"144","name":"Articuno","type":"HIELO","stats":{"hp":90,"attack":85,"specialAttack":95,"defense":100,"specialDefense":125,"speed":85},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"124","name":"Jynx","type":"HIELO","stats":{"hp":65,"attack":50,"specialAttack":115,"defense":35,"specialDefense":95,"speed":95},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"87","name":"Dewgong","type":"HIELO","stats":{"hp":90,"attack":70,"specialAttack":70,"defense":80,"specialDefense":95,"speed":70},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"91","name":"Cloyster","type":"HIELO","stats":{"hp":50,"attack":95,"specialAttack":85,"defense":180,"specialDefense":45,"speed":70},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"131","name":"Lapras","type":"HIELO","stats":{"hp":130,"attack":85,"specialAttack":85,"defense":80,"specialDefense":95,"speed":60},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"12","name":"Butterfree","type":"BICHO","stats":{"hp":60,"attack":45,"specialAttack":90,"defense":50,"specialDefense":80,"speed":70},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"15","name":"Beedrill","type":"BICHO","stats":{"hp":65,"attack":90,"specialAttack":45,"defense":40,"specialDefense":80,"speed":75},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"127","name":"Pinsir","type":"BICHO","stats":{"hp":65,"attack":125,"specialAttack":55,"defense":100,"specialDefense":70,"speed":85},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"123","name":"Scyther","type":"BICHO","stats":{"hp":70,"attack":110,"specialAttack":55,"defense":80,"specialDefense":80,"speed":105},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"47","name":"Parasect","type":"BICHO","stats":{"hp":60,"attack":95,"specialAttack":60,"defense":80,"specialDefense":80,"speed":30},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"76","name":"Golem","type":"ROCA","stats":{"hp":80,"attack":120,"specialAttack":55,"defense":130,"specialDefense":65,"speed":45},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"112","name":"Rhydon","type":"ROCA","stats":{"hp":105,"attack":130,"specialAttack":45,"defense":120,"specialDefense":45,"speed":40},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"139","name":"Omastar","type":"ROCA","stats":{"hp":70,"attack":60,"specialAttack":115,"defense":125,"specialDefense":70,"speed":55},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"141","name":"Kabutops","type":"ROCA","stats":{"hp":60,"attack":115,"specialAttack":65,"defense":105,"specialDefense":70,"speed":80},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"142","name":"Aerodactyl","type":"ROCA","stats":{"hp":80,"attack":105,"specialAttack":60,"defense":65,"specialDefense":75,"speed":130},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"94","name":"Gengar","type":"FANTASMA","stats":{"hp":60,"attack":65,"specialAttack":130,"defense":60,"specialDefense":75,"speed":110},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"93","name":"Haunter","type":"FANTASMA","stats":{"hp":45,"attack":50,"specialAttack":115,"defense":45,"specialDefense":55,"speed":95},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"92","name":"Gastly","type":"FANTASMA","stats":{"hp":30,"attack":35,"specialAttack":100,"defense":30,"specialDefense":35,"speed":80},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"200","name":"Misdreavus","type":"FANTASMA","stats":{"hp":60,"attack":60,"specialAttack":85,"defense":60,"specialDefense":85,"speed":85},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"105","name":"Marowak","type":"FANTASMA","stats":{"hp":60,"attack":80,"specialAttack":50,"defense":110,"specialDefense":80,"speed":45},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"68","name":"Machamp","type":"LUCHA","stats":{"hp":90,"attack":130,"specialAttack":65,"defense":80,"specialDefense":85,"speed":55},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"106","name":"Hitmonlee","type":"LUCHA","stats":{"hp":50,"attack":120,"specialAttack":35,"defense":53,"specialDefense":110,"speed":87},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"107","name":"Hitmonchan","type":"LUCHA","stats":{"hp":50,"attack":105,"specialAttack":35,"defense":79,"specialDefense":110,"speed":76},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"57","name":"Primeape","type":"LUCHA","stats":{"hp":65,"attack":105,"specialAttack":60,"defense":60,"specialDefense":70,"speed":95},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"62","name":"Poliwrath","type":"LUCHA","stats":{"hp":90,"attack":95,"specialAttack":70,"defense":95,"specialDefense":90,"speed":70},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"143","name":"Snorlax","type":"NORMAL","stats":{"hp":160,"attack":110,"specialAttack":65,"defense":65,"specialDefense":110,"speed":30},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"128","name":"Tauros","type":"NORMAL","stats":{"hp":75,"attack":100,"specialAttack":40,"defense":95,"specialDefense":70,"speed":110},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"115","name":"Kangaskhan","type":"NORMAL","stats":{"hp":105,"attack":95,"specialAttack":40,"defense":80,"specialDefense":80,"speed":90},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"53","name":"Persian","type":"NORMAL","stats":{"hp":65,"attack":70,"specialAttack":65,"defense":60,"specialDefense":65,"speed":115},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"113","name":"Chansey","type":"NORMAL","stats":{"hp":250,"attack":5,"specialAttack":35,"defense":5,"specialDefense":105,"speed":50},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"110","name":"Weezing","type":"VENENO","stats":{"hp":65,"attack":90,"specialAttack":85,"defense":120,"specialDefense":70,"speed":60},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"89","name":"Muk","type":"VENENO","stats":{"hp":105,"attack":105,"specialAttack":65,"defense":75,"specialDefense":100,"speed":50},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"24","name":"Arbok","type":"VENENO","stats":{"hp":60,"attack":95,"specialAttack":65,"defense":69,"specialDefense":79,"speed":80},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"71","name":"Victreebel","type":"VENENO","stats":{"hp":80,"attack":105,"specialAttack":100,"defense":65,"specialDefense":70,"speed":70},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"34","name":"Nidoking","type":"VENENO","stats":{"hp":81,"attack":102,"specialAttack":85,"defense":77,"specialDefense":75,"speed":85},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"36","name":"Clefable","type":"HADA","stats":{"hp":95,"attack":70,"specialAttack":95,"defense":73,"specialDefense":90,"speed":60},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"40","name":"Wigglytuff","type":"HADA","stats":{"hp":140,"attack":70,"specialAttack":85,"defense":45,"specialDefense":50,"speed":45},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"122","name":"Mr. Mime","type":"HADA","stats":{"hp":40,"attack":45,"specialAttack":100,"defense":65,"specialDefense":120,"speed":90},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"39","name":"Jigglypuff","type":"HADA","stats":{"hp":115,"attack":45,"specialAttack":45,"defense":20,"specialDefense":25,"speed":20},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"35","name":"Clefairy","type":"HADA","stats":{"hp":70,"attack":45,"specialAttack":60,"defense":48,"specialDefense":65,"speed":35},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"82","name":"Magneton","type":"ACERO","stats":{"hp":50,"attack":60,"specialAttack":120,"defense":95,"specialDefense":70,"speed":70},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"81","name":"Magnemite","type":"ACERO","stats":{"hp":25,"attack":35,"specialAttack":95,"defense":70,"specialDefense":55,"speed":45},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"208","name":"Steelix","type":"ACERO","stats":{"hp":75,"attack":85,"specialAttack":55,"defense":200,"specialDefense":65,"speed":30},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"212","name":"Scizor","type":"ACERO","stats":{"hp":70,"attack":130,"specialAttack":55,"defense":100,"specialDefense":80,"speed":65},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"227","name":"Skarmory","type":"ACERO","stats":{"hp":65,"attack":80,"specialAttack":40,"defense":140,"specialDefense":70,"speed":70},"moveCount":4,"moveSubset":[0,4]},
+
+      {"id":"28","name":"Sandslash","type":"TIERRA","stats":{"hp":75,"attack":100,"specialAttack":45,"defense":110,"specialDefense":55,"speed":65},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"31","name":"Nidoqueen","type":"TIERRA","stats":{"hp":90,"attack":92,"specialAttack":75,"defense":87,"specialDefense":85,"speed":76},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"51","name":"Dugtrio","type":"TIERRA","stats":{"hp":35,"attack":100,"specialAttack":50,"defense":50,"specialDefense":70,"speed":120},"moveCount":4,"moveSubset":[0,4]},
+      {"id":"76","name":"Golem","type":"TIERRA","stats":{"hp":80,"attack":120,"specialAttack":55,"defense":130,"specialDefense":65,"speed":45},"moveCount":4,"moveSubset":[1,5]},
+      {"id":"111","name":"Rhyhorn","type":"TIERRA","stats":{"hp":80,"attack":85,"specialAttack":30,"defense":95,"specialDefense":30,"speed":25},"moveCount":4,"moveSubset":[0,4]}
+
+
+
+    ],
+    "moves": {
+      "FUEGO": [
+        {"name": "Lanzallamas", "category": "FISICO", "power": 90},
+        {"name": "Llamarada", "category": "ESPECIAL", "power": 85},
+        {"name": "Puño Fuego", "category": "FISICO", "power": 75},
+        {"name": "Giro Fuego", "category": "ESPECIAL", "power": 70},
+        {"name": "Nitrocarga", "category": "FISICO", "power": 65}
+      ],
+      "AGUA": [
+        {"name": "Hidrobomba", "category": "ESPECIAL", "power": 95},
+        {"name": "Surf", "category": "ESPECIAL", "power": 85},
+        {"name": "Acua Cola", "category": "FISICO", "power": 80},
+        {"name": "Pistola Agua", "category": "ESPECIAL", "power": 65},
+        {"name": "Cascada", "category": "FISICO", "power": 75}
+      ],
+      "PLANTA": [
+        {"name": "Rayo Solar", "category": "ESPECIAL", "power": 95},
+        {"name": "Hoja Afilada", "category": "FISICO", "power": 85},
+        {"name": "Latigazo", "category": "FISICO", "power": 80},
+        {"name": "Bomba Germen", "category": "ESPECIAL", "power": 75},
+        {"name": "Drenadoras", "category": "ESPECIAL", "power": 70}
+      ],
+      "TIERRA": [
+        {"name": "Terremoto", "category": "FISICO", "power": 95},
+        {"name": "Excavar", "category": "FISICO", "power": 85},
+        {"name": "Tierra Viva", "category": "ESPECIAL", "power": 80},
+        {"name": "Bofetón Lodo", "category": "ESPECIAL", "power": 75},
+        {"name": "Avalancha", "category": "FISICO", "power": 70}
+      ],
+      "ELECTRICO": [
+        {"name": "Trueno", "category": "ESPECIAL", "power": 95},
+        {"name": "Rayo", "category": "ESPECIAL", "power": 90},
+        {"name": "Chispa", "category": "FISICO", "power": 75},
+        {"name": "Voltio Cruel", "category": "FISICO", "power": 85},
+        {"name": "Impactrueno", "category": "ESPECIAL", "power": 65}
+      ],
+      "VOLADOR": [
+        {"name": "Pájaro Osado", "category": "FISICO", "power": 95},
+        {"name": "Ataque Aéreo", "category": "FISICO", "power": 85},
+        {"name": "Aire Afilado", "category": "ESPECIAL", "power": 75},
+        {"name": "Tajo Aéreo", "category": "ESPECIAL", "power": 80},
+        {"name": "Tornado", "category": "ESPECIAL", "power": 65}
+      ],
+      "PSIQUICO": [
+        {"name": "Psíquico", "category": "ESPECIAL", "power": 90},
+        {"name": "Psicorrayo", "category": "ESPECIAL", "power": 85},
+        {"name": "Confusión", "category": "ESPECIAL", "power": 70},
+        {"name": "Psicocorte", "category": "FISICO", "power": 80},
+        {"name": "Cabezazo Zen", "category": "FISICO", "power": 75}
+      ],
+      "HIELO": [
+        {"name": "Rayo Hielo", "category": "ESPECIAL", "power": 90},
+        {"name": "Ventisca", "category": "ESPECIAL", "power": 95},
+        {"name": "Puño Hielo", "category": "FISICO", "power": 75},
+        {"name": "Colmillo Hielo", "category": "FISICO", "power": 80},
+        {"name": "Canto Helado", "category": "FISICO", "power": 70}
+      ],
+      "BICHO": [
+        {"name": "Zumbido", "category": "ESPECIAL", "power": 90},
+        {"name": "Tijera X", "category": "FISICO", "power": 85},
+        {"name": "Chupavidas", "category": "FISICO", "power": 80},
+        {"name": "Pin Misil", "category": "FISICO", "power": 75},
+        {"name": "Picadura", "category": "FISICO", "power": 65}
+      ],
+      "ROCA": [
+        {"name": "Roca Afilada", "category": "FISICO", "power": 95},
+        {"name": "Lanzarrocas", "category": "FISICO", "power": 85},
+        {"name": "Pedrada", "category": "FISICO", "power": 75},
+        {"name": "Avalancha", "category": "FISICO", "power": 80},
+        {"name": "Tumba Rocas", "category": "FISICO", "power": 70}
+      ],
+      "FANTASMA": [
+        {"name": "Bola Sombra", "category": "ESPECIAL", "power": 90},
+        {"name": "Golpe Umbrío", "category": "FISICO", "power": 85},
+        {"name": "Garra Umbría", "category": "FISICO", "power": 80},
+        {"name": "Tinieblas", "category": "ESPECIAL", "power": 75},
+        {"name": "Rencor", "category": "ESPECIAL", "power": 70}
+      ],
+      "DRAGON": [
+        {"name": "Enfado", "category": "FISICO", "power": 95},
+        {"name": "Pulso Dragón", "category": "ESPECIAL", "power": 90},
+        {"name": "Garra Dragón", "category": "FISICO", "power": 85},
+        {"name": "Cola Dragón", "category": "FISICO", "power": 80},
+        {"name": "Aliento Dragón", "category": "ESPECIAL", "power": 75}
+      ],
+      "LUCHA": [
+        {"name": "A Bocajarro", "category": "FISICO", "power": 95},
+        {"name": "Patada Salto Alta", "category": "FISICO", "power": 90},
+        {"name": "Tajo Cruzado", "category": "FISICO", "power": 85},
+        {"name": "Golpe Kárate", "category": "FISICO", "power": 75},
+        {"name": "Contraataque", "category": "FISICO", "power": 70}
+      ],
+      "HADA": [
+        {"name": "Fuerza Lunar", "category": "ESPECIAL", "power": 95},
+        {"name": "Brillo Mágico", "category": "ESPECIAL", "power": 85},
+        {"name": "Beso Drenaje", "category": "ESPECIAL", "power": 80},
+        {"name": "Voz Cautivadora", "category": "ESPECIAL", "power": 75},
+        {"name": "Carantoña", "category": "FISICO", "power": 70}
+      ],
+      "SINIESTRO": [
+        {"name": "Pulso Umbrío", "category": "ESPECIAL", "power": 90},
+        {"name": "Triturar", "category": "FISICO", "power": 85},
+        {"name": "Mordisco", "category": "FISICO", "power": 75},
+        {"name": "Finta", "category": "FISICO", "power": 70},
+        {"name": "Persecución", "category": "FISICO", "power": 65}
+      ],
+      "NORMAL": [
+        {"name": "Hiperrayo", "category": "ESPECIAL", "power": 95},
+        {"name": "Golpe Cuerpo", "category": "FISICO", "power": 85},
+        {"name": "Placaje", "category": "FISICO", "power": 65},
+        {"name": "Doble Filo", "category": "FISICO", "power": 90},
+        {"name": "Ataque Rápido", "category": "FISICO", "power": 70}
+      ],
+      "ACERO": [
+        {"name": "Cabeza de Hierro", "category": "FISICO", "power": 95},
+        {"name": "Garra Metal", "category": "FISICO", "power": 85},
+        {"name": "Cola Férrea", "category": "FISICO", "power": 80},
+        {"name": "Bomba Imán", "category": "ESPECIAL", "power": 75},
+        {"name": "Púas Acero", "category": "FISICO", "power": 70}
+      ],
+      "VENENO": [
+        {"name": "Bomba Lodo", "category": "ESPECIAL", "power": 90},
+        {"name": "Residuos", "category": "ESPECIAL", "power": 85},
+        {"name": "Cola Veneno", "category": "FISICO", "power": 80},
+        {"name": "Púas Tóxicas", "category": "FISICO", "power": 75},
+        {"name": "Ácido", "category": "ESPECIAL", "power": 70}
+      ]
+    }
+
+  }

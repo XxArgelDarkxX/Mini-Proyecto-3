@@ -1,0 +1,9 @@
+package Modelo.Data;
+
+public enum Type {
+    FUEGO, AGUA, PLANTA, TIERRA,
+    ELECTRICO, VOLADOR, PSIQUICO,
+    HIELO, BICHO, ROCA, FANTASMA,
+    DRAGON, LUCHA, HADA, SINIESTRO, NORMAL,
+    ACERO, VENENO,
+}
