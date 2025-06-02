@@ -1,4 +1,5 @@
 package Model;
+import Model.Data.Data;
 import java.util.ArrayList;
 public class Pokemon {
     private String pokedexId;
