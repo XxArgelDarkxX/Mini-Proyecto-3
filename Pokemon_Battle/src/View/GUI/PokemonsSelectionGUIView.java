@@ -205,9 +205,7 @@ public class PokemonsSelectionGUIView extends JFrame implements PokemonsSelectio
 
     private void battleButtonActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-            String pokemon1Id = jTextField1.getText().trim();
-            String pokemon2Id = jTextField2.getText().trim();
-            controller.processPokemonSelection(pokemon1Id, pokemon2Id);
+            controller.processPokemonSelection();
     }
 
     private void battleButtonMouseExited(java.awt.event.MouseEvent evt) {
