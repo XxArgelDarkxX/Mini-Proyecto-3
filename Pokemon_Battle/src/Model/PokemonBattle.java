@@ -3,10 +3,10 @@ package Model;
 import java.util.ArrayList;
 
 /**
- * Manages Pokémon battle logic including:
- * - Turn order based on Pokémon speed
- * - Move execution and effects
- * - Battle outcome determination
+ * Administra la lógica de la batalla Pokémon incluyendo:
+ * - Orden de turnos basado en la velocidad de los Pokémon
+ * - Ejecución de movimientos y sus efectos
+ * - Determinación del resultado de la batalla
  */
 public class PokemonBattle {
     private final Trainer[] trainers;
@@ -16,16 +16,10 @@ public class PokemonBattle {
     private byte trainer1CurrentIndex = 0;
     private byte trainer2CurrentIndex = 0;
     
-    /**
-     * Initializes a new battle between two trainers
-     * @param trainers Array of exactly 2 trainers
-     * @param initialPokemons Array of exactly 2 Pokémon (one for each trainer)
-     * @throws IllegalArgumentException if parameters are invalid
-     */
     public PokemonBattle(Trainer[] trainers, Pokemon[] initialPokemons) {
         if (trainers == null || trainers.length != 2 || 
             initialPokemons == null || initialPokemons.length != 2) {
-            throw new IllegalArgumentException("Requires exactly 2 trainers and 2 Pokémon");
+            throw new IllegalArgumentException("Se requieren exactamente 2 entrenadores y 2 Pokémon");
         }
         
         this.trainers = trainers;
@@ -47,15 +41,10 @@ public class PokemonBattle {
                 return i;
             }
         }
-        throw new IllegalArgumentException("Pokémon not found in trainer's team");
+        throw new IllegalArgumentException("Pokémon no encontrado en el equipo del entrenador");
     }
     
-    /**
-     * Selects a new Pokémon for a trainer
-     * @param trainer 0 for first trainer, 1 for second
-     * @param pokemonIndex Index in trainer's team
-     */
-    public void selectPokemon(int trainer, int pokemonIndex) {
+    public void selectPokemon(byte trainer, byte pokemonIndex) {
         validateTrainerIndex(trainer);
         
         if (trainer == 0) {
@@ -67,9 +56,9 @@ public class PokemonBattle {
         }
     }
     
-    private void validateTrainerIndex(int trainer) {
+    private void validateTrainerIndex(byte trainer) {
         if (trainer != 0 && trainer != 1) {
-            throw new IllegalArgumentException("Trainer index must be 0 or 1");
+            throw new IllegalArgumentException("El índice del entrenador debe ser 0 o 1");
         }
     }
     
@@ -82,12 +71,12 @@ public class PokemonBattle {
     }
     
     /**
-     * Executes a battle turn based on Pokémon speed
-     * @return Result of the turn including HP changes and fainting status
+     * Ejecuta un turno de batalla basado en la velocidad de los Pokémon
+     * Retorna el resultado del turno incluyendo cambios de HP y estado de debilitamiento
      */
     public BattleResult executeTurn() {
         if (trainer1Move == -1 || trainer2Move == -1) {
-            throw new IllegalStateException("Both trainers must select a move first");
+            throw new IllegalStateException("Ambos entrenadores deben seleccionar un movimiento primero");
         }
         
         Pokemon pokemon1 = getCurrentPokemon(0);
@@ -106,7 +95,7 @@ public class PokemonBattle {
             }
         }
         
-        // Reset moves for next turn
+        // Reinicia los movimientos para el siguiente turno
         trainer1Move = -1;
         trainer2Move = -1;
         
@@ -133,7 +122,7 @@ public class PokemonBattle {
     }
     
     public boolean isBattleOver() {
-        return !trainerHasLivePokemon(0) || !trainerHasLivePokemon(1);
+        return !trainerHasLivePokemon((byte) 0) || !trainerHasLivePokemon(1);
     }
     
     private boolean trainerHasLivePokemon(int trainer) {
@@ -166,15 +155,15 @@ public class PokemonBattle {
 }
 
 class BattleResult {
-    private int pokemon1HP;
-    private int pokemon2HP;
+    private short pokemon1HP;
+    private short pokemon2HP;
     private boolean pokemon1Fainted;
     private boolean pokemon2Fainted;
     
-    public int getPokemon1HP() { return pokemon1HP; }
-    public void setPokemon1HP(int hp) { this.pokemon1HP = hp; }
-    public int getPokemon2HP() { return pokemon2HP; }
-    public void setPokemon2HP(int hp) { this.pokemon2HP = hp; }
+    public short getPokemon1HP() { return pokemon1HP; }
+    public void setPokemon1HP(short hp) { this.pokemon1HP = hp; }
+    public short getPokemon2HP() { return pokemon2HP; }
+    public void setPokemon2HP(short hp) { this.pokemon2HP = hp; }
     public boolean isPokemon1Fainted() { return pokemon1Fainted; }
     public void setPokemon1Fainted(boolean fainted) { this.pokemon1Fainted = fainted; }
     public boolean isPokemon2Fainted() { return pokemon2Fainted; }
