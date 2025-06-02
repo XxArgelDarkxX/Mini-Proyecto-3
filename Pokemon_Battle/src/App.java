@@ -1,8 +1,9 @@
-import View.Inicio;
-
+import Controller.MainController;
+import View.GUI.MainGUIView;
 public class App {
     public static void main(String[] args) throws Exception {
-        Inicio inicio = new Inicio();
-        inicio.setVisible(true);
+        MainGUIView main = new MainGUIView();
+        MainController controller = new MainController(main, true);
+        controller.initialize();
     }
 }
